@@ -1,0 +1,251 @@
+[
+  {
+    "query": "新品怎么推",
+    "topN": 3,
+    "match": "launch|new-product",
+    "expected": [
+      "sealeap-amazon-new-product-launch-plan",
+      "sealeap-hundun-amazon-launch-review-rank-playbook",
+      "sealeap-yingzhao-amazon-conversion-gated-ppc-launch",
+      "sealeap-bifang-amazon-new-product-ad-conversion-first",
+      "sealeap-dijiang-amazon-creator-seeding-launch-buffer",
+      "sealeap-fenghuang-amazon-prelaunch-audience-launch"
+    ]
+  },
+  {
+    "query": "广告怎么优化",
+    "topN": 3,
+    "match": "ad-|ads|campaign|advertis|ppc|sp-",
+    "expected": [
+      "sealeap-baize-amazon-ad-optimization-order",
+      "sealeap-taowu-amazon-sp-campaign-efficiency-tuning",
+      "sealeap-amazon-ad-architecture",
+      "sealeap-xiezhi-amazon-ad-efficiency-benchmark"
+    ]
+  },
+  {
+    "query": "怎么提高转化率",
+    "topN": 3,
+    "match": "conversion|转化",
+    "expected": [
+      "sealeap-yingzhao-amazon-conversion-gated-ppc-launch",
+      "sealeap-bifang-amazon-ad-rank-conversion-balance",
+      "sealeap-dijiang-amazon-conversion-rate-keyword-filter",
+      "sealeap-xiezhi-amazon-conversion-diagnostic-ladder",
+      "sealeap-baize-amazon-conversion-root-cause",
+      "sealeap-jiuwei-amazon-low-conversion-diagnosis",
+      "sealeap-amazon-acos-conversion-diagnostics",
+      "sealeap-xiezhi-amazon-conversion-rate-prelaunch-estimation"
+    ]
+  },
+  {
+    "query": "库存积压怎么清",
+    "topN": 3,
+    "match": "inventory|fba|库存",
+    "expected": [
+      "sealeap-amazon-fba-defective-inventory-triage",
+      "sealeap-baize-amazon-inventory-profit-balance",
+      "sealeap-jinwu-amazon-catalog-inventory-operations",
+      "sealeap-pixiu-amazon-fba-inventory-fees",
+      "sealeap-yinglong-amazon-fba-inventory-policy",
+      "sealeap-zhuque-amazon-fba-inventory",
+      "sealeap-hermes-logistics-inventory"
+    ]
+  },
+  {
+    "query": "账号被封了怎么办",
+    "topN": 3,
+    "match": "suspension|appeal|account",
+    "expected": [
+      "sealeap-dijiang-amazon-related-account-suspension-triage",
+      "sealeap-baxia-amazon-restricted-listing-appeal",
+      "sealeap-luduan-amazon-social-ad-account-appeal",
+      "sealeap-dijiang-amazon-seller-account-registration"
+    ]
+  },
+  {
+    "query": "关键词怎么选",
+    "topN": 3,
+    "match": "keyword",
+    "expected": [
+      "sealeap-amazon-keyword-selection-and-campaign-mapping",
+      "sealeap-dijiang-amazon-conversion-rate-keyword-filter",
+      "sealeap-kunpeng-amazon-ai-keyword-research-control",
+      "sealeap-taotie-amazon-competitor-keyword-gap-strategy",
+      "sealeap-qiongqi-amazon-ai-keyword-research-workflow"
+    ]
+  },
+  {
+    "query": "选品怎么做",
+    "topN": 3,
+    "match": "product-research|selection|product-screen|niche|选品",
+    "expected": [
+      "sealeap-apollo-product-research",
+      "sealeap-xiezhi-amazon-product-selection-eight-gates",
+      "sealeap-hermes-product-research",
+      "sealeap-jinwu-amazon-product-selection-scorecard",
+      "sealeap-taotie-amazon-keyword-driven-niche-product-screening",
+      "sealeap-chiwen-amazon-niche-nine-check-screen"
+    ]
+  },
+  {
+    "query": "ACOS 太高怎么办",
+    "topN": 3,
+    "match": "acos",
+    "expected": [
+      "sealeap-amazon-acos-diagnostics",
+      "sealeap-amazon-acos-conversion-diagnostics",
+      "sealeap-xiezhi-amazon-ad-efficiency-benchmark"
+    ]
+  },
+  {
+    "query": "差评怎么处理",
+    "topN": 3,
+    "match": "review|差评",
+    "expected": [
+      "sealeap-amazon-negative-review-response",
+      "sealeap-bifang-amazon-negative-review-compliant-handling",
+      "sealeap-yingzhao-amazon-negative-review-triage",
+      "sealeap-jinwu-amazon-compliance-reviews-ip"
+    ]
+  },
+  {
+    "query": "欧洲税务合规",
+    "topN": 3,
+    "match": "tax|compliance|vat|合规",
+    "expected": [
+      "sealeap-amazon-seller-tax-compliance-triage",
+      "sealeap-tianlu-amazon-eu-compliance-system-audit",
+      "sealeap-tianlu-amazon-cross-domain-tax-compliance-self-audit"
+    ]
+  },
+  {
+    "query": "怎么找蓝海产品",
+    "topN": 3,
+    "match": "blue-ocean",
+    "expected": [
+      "sealeap-baize-amazon-blue-ocean-validation",
+      "sealeap-hundun-amazon-blue-ocean-filter-differentiation",
+      "sealeap-baize-amazon-red-ocean-niche"
+    ]
+  },
+  {
+    "query": "市场容量怎么判断",
+    "topN": 3,
+    "match": "market|category",
+    "expected": [
+      "sealeap-apollo-sorftime-category-report",
+      "sealeap-athena-amazon-market-assessment",
+      "sealeap-apollo-sellersprite-market-research"
+    ]
+  },
+  {
+    "query": "利润怎么测算",
+    "topN": 3,
+    "match": "margin|profit",
+    "expected": [
+      "sealeap-taowu-amazon-fba-fbm-margin-estimate",
+      "sealeap-suanni-amazon-unit-profit-breakeven"
+    ]
+  },
+  {
+    "query": "点击率低怎么办",
+    "topN": 3,
+    "match": "ctr|click",
+    "expected": [
+      "sealeap-luduan-amazon-main-image-ctr-design",
+      "sealeap-dijiang-amazon-price-ctr-funnel-diagnostic"
+    ]
+  },
+  {
+    "query": "购物车没了怎么办",
+    "topN": 3,
+    "match": "featured-offer|buy box|购物车",
+    "expected": [
+      "sealeap-amazon-featured-offer-loss-triage",
+      "sealeap-jinwu-amazon-catalog-inventory-operations"
+    ]
+  },
+  {
+    "query": "秒杀怎么报",
+    "topN": 3,
+    "match": "deal|秒杀",
+    "expected": [
+      "sealeap-tianlu-amazon-deal-event-submission-readiness",
+      "sealeap-amazon-woot-deal-assessment"
+    ]
+  },
+  {
+    "query": "站外推广怎么做",
+    "topN": 3,
+    "match": "offsite|站外",
+    "expected": [
+      "sealeap-luduan-amazon-offsite-channel-shortlist",
+      "sealeap-bifang-amazon-offsite-channel-and-attribution"
+    ]
+  },
+  {
+    "query": "季节品怎么备货",
+    "topN": 3,
+    "match": "seasonal",
+    "expected": ["sealeap-bixie-amazon-seasonal-demand-cycle-timing"]
+  },
+  {
+    "query": "BSR 排名怎么提升",
+    "topN": 3,
+    "match": "rank",
+    "expected": [
+      "sealeap-qiongqi-amazon-organic-rank-lift-strategy",
+      "sealeap-baize-amazon-organic-rank-test"
+    ]
+  },
+  {
+    "query": "头程物流怎么选",
+    "topN": 3,
+    "match": "freight|first-leg|head-haul|头程",
+    "expected": [
+      "sealeap-dijiang-amazon-china-to-fba-freight-routing",
+      "sealeap-suanni-amazon-first-mile-quote-compare",
+      "sealeap-taotie-amazon-fba-first-leg-freight-selection"
+    ]
+  },
+  {
+    "query": "补货怎么算",
+    "topN": 3,
+    "match": "replenishment",
+    "expected": ["sealeap-chiwen-amazon-fba-replenishment-formula"]
+  },
+  {
+    "query": "断货了怎么办",
+    "topN": 3,
+    "match": "stockout",
+    "expected": ["sealeap-baize-amazon-stockout-recovery"]
+  },
+  {
+    "query": "视频认证怎么过",
+    "topN": 3,
+    "match": "verification",
+    "expected": ["sealeap-baxia-amazon-video-verification-readiness"]
+  },
+  {
+    "query": "二审怎么过",
+    "topN": 3,
+    "expected": ["sealeap-baxia-amazon-video-verification-readiness"]
+  },
+  {
+    "query": "品牌备案怎么做",
+    "topN": 3,
+    "match": "brand-registry",
+    "expected": [
+      "sealeap-fenghuang-amazon-brand-registry-setup",
+      "sealeap-dijiang-amazon-brand-registry-enrollment",
+      "sealeap-zouwu-amazon-brand-registry-enroll"
+    ]
+  },
+  {
+    "query": "商标怎么注册",
+    "topN": 3,
+    "match": "brand-registry|trademark",
+    "expected": ["sealeap-zouwu-amazon-brand-registry-enroll"]
+  }
+]

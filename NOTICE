@@ -1,0 +1,21 @@
+KJDS
+Copyright (c) 2026 KJDS contributors
+
+本仓库的原创代码与文档以 MIT 许可发布（见 LICENSE）。
+
+## 第三方内容与许可
+
+1. **上游技能库不随本仓库分发。** 打包产物依赖以下两个开源仓库，构建时由使用者自行克隆到 `research/`：
+
+   - `xjli360/sealeap-amazon-skills` — MIT，Copyright (c) 2026 SeaLeap
+   - `xjli360/sealeap-ecommerce-skills` — MIT，Copyright (c) 2026 SeaLeap
+
+   打包脚本会原样保留上游的 `LICENSE` / `NOTICE` / `THIRD_PARTY_NOTICES.md` 以及每个技能目录内自带的许可文件。上游转载的第三方文章、图像、视频与商标，权利仍归各权利人。
+
+2. **DeepSeek Harness 插件接口。** 插件入口、bundle patch、skill provider 与工具接口来自 DeepSeek Harness（DSH），其运行时与接口版权归各权利人。
+
+3. **OZON API 端点速查数据不在本仓库内。** `plugin-src/extras/` 中的端点清单派生自第三方镜像（该镜像无明确许可），因此不随本仓库分发；仓库只保留生成脚本与实现记录。
+
+4. **平台名称与商标。** Amazon、Ozon、Shopify、eBay、Etsy、TikTok Shop、Mercado Libre、Walmart、Wayfair 等名称与商标归各权利人；本仓库不代表上述任何平台的官方授权、认证或背书。
+
+5. **不构成运营建议。** 仓库内的技能内容与文档来自公开资料与个人实践，不保证适用于任何具体账户、市场或政策环境；涉及价格、库存、广告、合规等写操作时请自行复核。

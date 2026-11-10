@@ -1,0 +1,146 @@
+[
+  {
+    "query": "shopify 怎么提高转化率",
+    "topN": 3,
+    "match": "shopify.*conversion|conversion",
+    "expected": [
+      "sealeap-shopify-conversion-audit",
+      "sealeap-shopify-store-operations"
+    ]
+  },
+  {
+    "query": "库存积压怎么清",
+    "topN": 3,
+    "match": "inventory|stock|库存",
+    "expected": [
+      "sealeap-mercadolibre-full-inventory-aging",
+      "sealeap-shopify-inventory-replenishment",
+      "sealeap-walmart-inventory-planning",
+      "sealeap-ebay-inventory-multichannel"
+    ]
+  },
+  {
+    "query": "eBay 怎么选品",
+    "topN": 3,
+    "match": "ebay.*(selection|product)|product-selection",
+    "expected": [
+      "sealeap-ebay-product-selection",
+      "sealeap-ebay-category-keywords"
+    ]
+  },
+  {
+    "query": "OZON 广告怎么投",
+    "topN": 3,
+    "match": "ozon.*(ad|ads|advertis|attribution|incrementality)",
+    "expected": [
+      "sealeap-ozon-ad-readiness",
+      "sealeap-ozon-attribution-audit",
+      "sealeap-ozon-incrementality"
+    ]
+  },
+  {
+    "query": "俄语 listing 怎么写",
+    "topN": 3,
+    "match": "listing|localization",
+    "expected": [
+      "sealeap-ozon-listing-localization",
+      "sealeap-walmart-listing-quality",
+      "sealeap-etsy-listing-seo"
+    ]
+  },
+  {
+    "query": "TikTok Shop 选品",
+    "topN": 3,
+    "match": "tiktokshop.*(selection|product)|product-selection",
+    "expected": [
+      "sealeap-tiktokshop-product-selection",
+      "sealeap-tiktokshop-content-product-fit",
+      "sealeap-tiktokshop-trend-validation"
+    ]
+  },
+  {
+    "query": "美客多库存",
+    "topN": 3,
+    "match": "mercadolibre.*(inventory|stock)",
+    "expected": [
+      "sealeap-mercadolibre-full-inventory-aging",
+      "sealeap-mercadolibre-seasonal-stock-planning"
+    ]
+  },
+  {
+    "query": "wayfair 广告资格",
+    "topN": 3,
+    "match": "wayfair.*ad",
+    "expected": [
+      "sealeap-wayfair-ad-readiness",
+      "sealeap-wayfair-attribution-incrementality",
+      "sealeap-wayfair-sponsored-products-testing"
+    ]
+  },
+  {
+    "query": "独立站广告怎么投",
+    "topN": 3,
+    "match": "shopify.*(advertis|google)",
+    "expected": [
+      "sealeap-shopify-advertising",
+      "sealeap-shopify-google-shopping"
+    ]
+  },
+  {
+    "query": "独立站怎么选品",
+    "topN": 3,
+    "match": "shopify.*(selection|product)",
+    "expected": [
+      "sealeap-shopify-product-selection",
+      "sealeap-shopify-competitor-positioning"
+    ]
+  },
+  {
+    "query": "walmart 怎么上架",
+    "topN": 3,
+    "match": "walmart.*listing",
+    "expected": [
+      "sealeap-walmart-listing-quality"
+    ]
+  },
+  {
+    "query": "etsy SEO 怎么优化",
+    "topN": 3,
+    "match": "etsy.*(seo|listing)",
+    "expected": [
+      "sealeap-etsy-listing-seo"
+    ]
+  },
+  {
+    "query": "ebay 广告归因怎么算",
+    "topN": 3,
+    "match": "ebay.*attribution",
+    "expected": [
+      "sealeap-ebay-ad-attribution"
+    ]
+  },
+  {
+    "query": "tiktok shop 直播怎么起量",
+    "topN": 3,
+    "match": "tiktokshop.*live",
+    "expected": [
+      "sealeap-tiktokshop-live-assortment"
+    ]
+  },
+  {
+    "query": "OZON API 怎么查商品信息",
+    "topN": 2,
+    "match": "ozon.*(api|seller-api)",
+    "expected": [
+      "sealeap-ozon-seller-api"
+    ]
+  },
+  {
+    "query": "ozon seller api 库存怎么改",
+    "topN": 2,
+    "match": "ozon.*api",
+    "expected": [
+      "sealeap-ozon-seller-api"
+    ]
+  }
+]

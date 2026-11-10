@@ -1,0 +1,14 @@
+{
+  "name": "@local/ops-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "跨平台（Ozon/Amazon 等）运营系统的可复用内核：配置、SQLite 迁移、HTTP 客户端、预警、报表、写操作护栏、图片工具。提取自一个 Ozon 实战项目的实现。",
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

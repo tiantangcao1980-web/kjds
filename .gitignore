@@ -1,0 +1,29 @@
+# ---- 不随仓库发布的本地工作数据 ----
+research/
+tmp/
+.dsh-acl-reports/
+
+# 生成产物 / 第三方派生数据（见 README「不随仓库发布」）
+plugin-src/extras/
+docs/inventory/
+docs/api-watch/
+
+# ---- 依赖、凭据与运行时数据 ----
+node_modules/
+.secrets/
+*.env
+*.env.*
+!*.env.example
+data/
+db/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.bak
+
+# ---- 编辑器 / 系统 ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

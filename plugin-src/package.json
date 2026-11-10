@@ -1,0 +1,9 @@
+{
+  "name": "sealeap-skills-plugin-src",
+  "private": true,
+  "type": "module",
+  "description": "Source of the two SeaLeap skill plugins; pack.mjs writes the installable packages.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
